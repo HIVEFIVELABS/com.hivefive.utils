@@ -1,0 +1,26 @@
+{
+    "name": "com.hivefive.utils",
+    "version": "0.9.0",
+    "displayName": "Hivefive Labs Utils",
+    "description": "Utilities, helpers and extensions for Unity editor and runtime..",
+    "hideInEditor": "false",
+    "unity": "2019.3",
+    "unityRelease": "1f1",
+    "documentationUrl": "https://linktr.ee/jiridusek",
+    "changelogUrl": "https://linktr.ee/jiridusek",
+    "licensesUrl": "https://linktr.ee/jiridusek",
+    "keywords": [
+      "editor",
+      "runtime",
+      "tools",
+      "utils",
+      "utilities",
+      "helpers",
+      "extensions"
+    ],
+    "author": {
+      "name": "HIVEFIVE LABS",
+      "email": "jiri.dusek@outlook.com",
+      "url": "https://linktr.ee/jiridusek"
+    }
+}

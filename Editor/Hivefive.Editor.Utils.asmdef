@@ -1,0 +1,16 @@
+{
+    "name": "Hivefive.Editor.Utils",
+    "rootNamespace": "Hivefive.Editor.Utils",
+    "references": [
+        "GUID:8a80cbe0af5c46a4f87dd33cf78470c1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
