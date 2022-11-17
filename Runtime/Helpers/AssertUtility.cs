@@ -1,13 +1,24 @@
 ﻿using UnityEngine.Assertions;
 
-namespace HiveFive.Utils
+namespace Hivefive.Utils
 {
     public static class AssertUtility
     {
-        public static void AssertIsNotNullOrEmpty(this string s)
+        public static void AssertIsNotNullOrEmpty(this string s, string userMessage = null)
         {
-            Assert.IsNotNull(s, "s != null");
-            Assert.IsTrue(s.Length > 0, "s.Length > 0");
+            switch (s) {
+                case null:
+                    Fail("String is null. A non-null string was expected.", userMessage);
+                    break;
+                case "":
+                    Fail("String is empty. A non-empty string was expected.", userMessage);
+                    break;
+            }
+        }
+
+        private static void Fail(string message, string userMessage)
+        {
+            throw new AssertionException(message, userMessage);
         }
     }
 }
